@@ -45,6 +45,7 @@ HRESULT CMainApp::Render()
 
     //  빨간색 출력
 
+    // 노란색 출력
 
     m_pGameInstance->Render_End();
     
