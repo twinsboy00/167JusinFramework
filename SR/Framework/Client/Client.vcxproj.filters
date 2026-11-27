@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Defines">
+      <UniqueIdentifier>{e33b5f57-94b1-4b2e-b5df-a127e093e986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default">
+      <UniqueIdentifier>{85708f83-cd76-47bb-b90e-b0d10feb0e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{e2f7969a-67f8-4af7-8a6e-f655f8118d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels">
+      <UniqueIdentifier>{ef3f53a1-4c09-4bf7-ad66-4a9757e66fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay">
+      <UniqueIdentifier>{961d4b68-c8d9-43a6-b85c-14d26f5b6ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\Loading">
+      <UniqueIdentifier>{fd64bba5-f13a-4b41-80cc-9a8582478535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\Logo">
+      <UniqueIdentifier>{72356e3c-04ea-4f62-b416-061a8c0c1cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\Loading\Loader">
+      <UniqueIdentifier>{ac96d5a4-2464-45ae-bc0b-f9679450a6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects">
+      <UniqueIdentifier>{7da9f1ec-dc75-4f26-9506-9e18b4e86def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\BackGround">
+      <UniqueIdentifier>{18cd752e-c808-4189-bd72-9e1b5ba49836}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Public\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Client_Defines.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Level_Loading.h">
+      <Filter>01. Levels\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Loader.h">
+      <Filter>01. Levels\Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Level_Logo.h">
+      <Filter>01. Levels\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Level_GamePlay.h">
+      <Filter>01. Levels\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\BackGround.h">
+      <Filter>02. GameObjects\BackGround</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Private\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\Level_Loading.cpp">
+      <Filter>01. Levels\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\Loader.cpp">
+      <Filter>01. Levels\Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\Level_Logo.cpp">
+      <Filter>01. Levels\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\Level_GamePlay.cpp">
+      <Filter>01. Levels\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\BackGround.cpp">
+      <Filter>02. GameObjects\BackGround</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>98. Default</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>98. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
