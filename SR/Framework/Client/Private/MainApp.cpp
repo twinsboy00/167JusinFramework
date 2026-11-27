@@ -21,7 +21,7 @@ HRESULT CMainApp::Initialize()
         .iWinSizeY = g_iWinSizeY,
     };
 
-    /* ³» °ÔÀÓ¿¡ ÇÊ¿äÇÑ ±âÅ¸ ÃÊ±âÈ­ÀÛ¾÷À» ¼öÇàÇÑ´Ù. */
+    /* ë‚´ ê²Œì„ì— í•„ìš”í•œ ê¸°íƒ€ ì´ˆê¸°í™”ì‘ì—…ì„ ìˆ˜í–‰í•œë‹¤. */
     if (FAILED(m_pGameInstance->Initialize_Engine(EngineDesc, &m_pGraphic_Device)))
         return E_FAIL;
 
@@ -43,9 +43,10 @@ HRESULT CMainApp::Render()
     if (FAILED(m_pGameInstance->Draw()))
         return E_FAIL;
 
-    //  »¡°£»ö Ãâ·Â
+    //  ë¹¨ê°„ìƒ‰ ì¶œë ¥
 
-    //  ÁÖÈ²»ö Ãâ·Â
+    // ë…¸ë€ìƒ‰ ì¶œë ¥
+    //  ì£¼í™©ìƒ‰ ì¶œë ¥
 
 
     m_pGameInstance->Render_End();
