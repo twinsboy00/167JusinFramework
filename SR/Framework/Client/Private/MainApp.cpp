@@ -43,6 +43,9 @@ HRESULT CMainApp::Render()
     if (FAILED(m_pGameInstance->Draw()))
         return E_FAIL;
 
+    //  »¡°£»ö Ãâ·Â
+
+
     m_pGameInstance->Render_End();
     
     return S_OK;

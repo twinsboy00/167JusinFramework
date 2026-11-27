@@ -1,0 +1,16 @@
+# Visual Studio 임시 및 빌드 파일 무시
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.ipch
+*.db
+*.opendb
+*.user
+*.suo
+*.tlog
+*.log
+*.obj
+*.pdb
+*.ilk
